@@ -1,0 +1,15 @@
+# Python environment and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Secrets (API keys, passwords): never commit these
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Raw UCI data: download it instead, see README
+data/*.csv
+data/*.zip
